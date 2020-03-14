@@ -1,0 +1,27 @@
+#1: Turn On SELinux
+#2: Allow Minimal Privileges Via Mount Options
+#3: Linux /etc/sysctl.conf Hardening
+You can control and configure Linux kernel and networking settings via /etc/sysctl.conf.
+#4: Remove All Unwanted Nginx Modules
+#5: Use mod_security (only for backend Apache servers)
+#6: Install SELinux Policy To Harden The Nginx Webserver
+#7: Restrictive Iptables Based Firewall
+#8: Controlling Buffer Overflow Attacks
+#9: Control Simultaneous Connections
+#10: Allow Access To Our Domain Only
+#11: Limit Available Methods
+#12: Directory Restrictions
+#13: Nginx SSL Configuration
+#14: Nginx And PHP Security Tips
+#15: Run Nginx In A Chroot Jail (Containers) If Possible
+#16: Limits Connections Per IP At The Firewall Level
+#17: Configure Operating System to Protect Web Server
+#18: Restrict Outgoing Nginx Connections
+#19: Keep your software up to date
+#20: Avoid clickjacking
+#21: Disable content-type sniffing on some browsers
+#22 : Enable the Cross-site scripting (XSS) filter
+#23: Force HTTPS
+#24: Monitoring nginx
+#Conclusion
+# now nginx server is now properly harden and ready to server webpages. However, you should be consulted further resources for your web applications security needs. For example, wordpress or any other third party apps has its own security requirements.
