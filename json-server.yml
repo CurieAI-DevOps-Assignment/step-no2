@@ -1,0 +1,19 @@
+---
+    - hosts: all
+      become: yes
+      become_method: sudo
+      tasks:
+        - name: Install pip
+          apt: name=python-pip state=present
+
+        - name: install docker-py
+          pip: name=docker-py
+
+
+
+        - name: build
+          shell: docker build -t jsonserver .
+
+        - name: run
+          shell: docker run --rm -it --name jsonserver-container -p 8080:8080 jsonserver
+
